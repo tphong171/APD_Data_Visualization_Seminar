@@ -15,10 +15,11 @@ import {
 } from 'react-native';
 
 import HelloWorld from './src/components/HelloWorld';
+import DashBoardScreen from "./src/components/DashBoardScreen";
 
 const App = () => {
   return(
-    <HelloWorld />
+    <DashBoardScreen />
   );
 }
 
