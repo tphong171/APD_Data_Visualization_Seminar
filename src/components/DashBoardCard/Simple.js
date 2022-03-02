@@ -1,13 +1,20 @@
 
 import React from 'react';
 import { View, Text } from 'react-native';
+import { Icon } from 'react-native-elements';
 
-const DashBoardSimpleCard = () => {
+const DashBoardSimpleCard = ({dashBoardTitle, navigation}) => {
     return (
         <View style={{
+            width: 100,
+            height: 100,
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
+            borderWidth: 2,
+            borderColor: '#ddd',
+            borderRadius: 10,
+            marginVertical: 10,
         }}>
             <View style={{
                 flexDirection: 'column',
@@ -23,7 +30,12 @@ const DashBoardSimpleCard = () => {
             </View>
 
             <View>
-                <Text>Products</Text>
+                <Text style={{
+                    fontSize: 16,
+                    fontWeight: 'bold',
+                }}>
+                    {dashBoardTitle}
+                </Text>
             </View>
         </View>
     );

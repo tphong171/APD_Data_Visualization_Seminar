@@ -9,7 +9,7 @@ const data = [
     { quarter: 4, earnings: 19000 }
 ];
 
-const HelloWorld = () => {
+const HelloWorld = ({navigation}) => {
 
     return (
         <View style={styles.container}>
