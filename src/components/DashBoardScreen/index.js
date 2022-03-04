@@ -1,8 +1,10 @@
 import React from 'react';
 import {TouchableOpacity, View} from 'react-native';
 import DashBoardSimpleCard from '../DashBoardCard/Simple';
+const sampleData = require('../../../data/employment-us/data/aat1_json.json');
 
 const DashBoardScreen = ({navigation}) => {
+    //console.log(sampleData[0]['year']);
     return(
         <View style={{
             width: '100%',
@@ -13,9 +15,9 @@ const DashBoardScreen = ({navigation}) => {
             padding: 10,
         }}>
             <TouchableOpacity onPress={() => {
-                navigation.navigate('Monitor');
+                navigation.navigate('EmploymentMonitor');
             }}>
-                <DashBoardSimpleCard dashBoardTitle = 'Products' navigation={navigation} />
+                <DashBoardSimpleCard dashBoardTitle = 'Employment' navigation={navigation} />
             </TouchableOpacity>
 
             <TouchableOpacity onPress={() => {

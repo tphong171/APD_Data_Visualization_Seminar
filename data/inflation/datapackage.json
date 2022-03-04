@@ -1,0 +1,313 @@
+{
+  "bytes": 3894036,
+  "datahub": {
+    "created": "2017-11-08T22:07:33.006580",
+    "findability": "published",
+    "flowid": "core/inflation/9",
+    "modified": "2018-04-19T12:08:08.209653",
+    "owner": "core",
+    "ownerid": "core"
+  },
+  "descriptions": "Annual growth rate of the GDP implicit deflator and Inflation measured by the consumer price inde",
+  "hash": "48f1abd4bbffd627ab4b736c603b947c",
+  "id": "core/inflation",
+  "keywords": [
+    "GDP",
+    "Inflation",
+    "GDP deflator",
+    "Inflation GDP",
+    "Annual Data",
+    "The World Bank"
+  ],
+  "last_updated": "2016-03-04",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "name": "inflation",
+  "resources": [
+    {
+      "bytes": 443450,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/2188d2f4ca991b996d02e77886cda516.csv",
+      "encoding": "ISO-8859-1",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "inflation-gdp_original",
+      "path": "archive/inflation-gdp.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Inflation",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "bytes": 443450,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/2188d2f4ca991b996d02e77886cda516.csv",
+      "encoding": "ISO-8859-1",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "inflation-consumer_original",
+      "path": "archive/inflation-consumer.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Inflation",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "bytes": 1211,
+      "datahub": {
+        "type": "derived/report"
+      },
+      "description": "Validation report for tabular data",
+      "dpp:streamedFrom": "/tmp/tmpw474t3et/core/inflation/validation_report/data/ade069041b7c5cfcedb8cf4103d91e98/validation_report.json",
+      "format": "json",
+      "hash": "ade069041b7c5cfcedb8cf4103d91e98",
+      "name": "validation_report",
+      "path": "data/validation_report.json",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 443460,
+      "datahub": {
+        "derivedFrom": [
+          "inflation-gdp"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmpw474t3et/core/inflation/inflation-gdp_csv/data/3255acdf285d61cba80378e5464a06aa/inflation-gdp_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "3255acdf285d61cba80378e5464a06aa",
+      "mediatype": "text/csv",
+      "name": "inflation-gdp_csv",
+      "path": "data/inflation-gdp_csv.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "rowcount": 11014,
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "decimalChar": ".",
+            "groupChar": "",
+            "name": "Inflation",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 443460,
+      "datahub": {
+        "derivedFrom": [
+          "inflation-consumer"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmpw474t3et/core/inflation/inflation-consumer_csv/data/3255acdf285d61cba80378e5464a06aa/inflation-consumer_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "3255acdf285d61cba80378e5464a06aa",
+      "mediatype": "text/csv",
+      "name": "inflation-consumer_csv",
+      "path": "data/inflation-consumer_csv.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "rowcount": 11014,
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "decimalChar": ".",
+            "groupChar": "",
+            "name": "Inflation",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 1058986,
+      "datahub": {
+        "derivedFrom": [
+          "inflation-gdp"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmpw474t3et/core/inflation/inflation-gdp_json/data/f928d7e34e8287e66ae42f280d628efc/inflation-gdp_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "f928d7e34e8287e66ae42f280d628efc",
+      "mediatype": "text/csv",
+      "name": "inflation-gdp_json",
+      "path": "data/inflation-gdp_json.json",
+      "pathType": "local",
+      "profile": "data-resource",
+      "rowcount": 11014,
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Inflation",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 1058986,
+      "datahub": {
+        "derivedFrom": [
+          "inflation-consumer"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmpw474t3et/core/inflation/inflation-consumer_json/data/f928d7e34e8287e66ae42f280d628efc/inflation-consumer_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "f928d7e34e8287e66ae42f280d628efc",
+      "mediatype": "text/csv",
+      "name": "inflation-consumer_json",
+      "path": "data/inflation-consumer_json.json",
+      "pathType": "local",
+      "profile": "data-resource",
+      "rowcount": 11014,
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string"
+          },
+          {
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Inflation",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 1033,
+      "dpp:streamedFrom": "/tmp/tmp5qm3uv8c/README.md",
+      "format": "md",
+      "name": "readme",
+      "path": "README.md"
+    }
+  ],
+  "sources": [
+    {
+      "name": "The World Bank",
+      "path": "http://data.worldbank.org/indicator/NY.GDP.DEFL.KD.ZG",
+      "title": "The World Bank"
+    },
+    {
+      "name": "The World Bank",
+      "path": "http://data.worldbank.org/indicator/FP.CPI.TOTL.ZG",
+      "title": "The World Bank"
+    }
+  ],
+  "title": "Annual inflation by GDP deflator and consumer prices",
+  "version": "2.0.0"
+}
