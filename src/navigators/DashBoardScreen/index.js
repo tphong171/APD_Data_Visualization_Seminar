@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import DashBoardScreen from '../../components/DashBoardScreen';
 import HelloWorld from '../../components/HelloWorld';
 import EmploymentMonitor from '../../components/MonitorScreen/Employment';
+import GDPMonitor from '../../components/MonitorScreen/GDP';
 
 const DashBoardNavigator = () => {
     const Stack = createNativeStackNavigator();
@@ -15,6 +16,7 @@ const DashBoardNavigator = () => {
                 <Stack.Screen name="Dashboard" component={DashBoardScreen} />
                 <Stack.Screen name="Monitor" component={HelloWorld} />
                 <Stack.Screen name="EmploymentMonitor" component={EmploymentMonitor} />
+                <Stack.Screen name="GDPMonitor" component={GDPMonitor} />
             </Stack.Navigator>
         </NavigationContainer>
     );

@@ -21,9 +21,9 @@ const DashBoardScreen = ({navigation}) => {
             </TouchableOpacity>
 
             <TouchableOpacity onPress={() => {
-                navigation.navigate('Monitor');
+                navigation.navigate('GDPMonitor');
             }}>
-                <DashBoardSimpleCard dashBoardTitle = 'Sales' navigation={navigation} />
+                <DashBoardSimpleCard dashBoardTitle = 'GDP' navigation={navigation} />
             </TouchableOpacity>
 
             <TouchableOpacity onPress={() => {
