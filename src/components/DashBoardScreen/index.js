@@ -51,6 +51,12 @@ const DashBoardScreen = ({ navigation }) => {
                 }}>
                     <DashBoardSimpleCard dashBoardTitle='Companies' navigation={navigation} />
                 </TouchableOpacity>
+
+                <TouchableOpacity style={{ width: '48%' }} onPress={() => {
+                    navigation.navigate('Inflation');
+                }}>
+                    <DashBoardSimpleCard dashBoardTitle='Inflation' navigation={navigation} />
+                </TouchableOpacity>
             </View>
         </ScrollView>
     );
