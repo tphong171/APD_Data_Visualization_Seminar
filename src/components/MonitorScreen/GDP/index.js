@@ -98,6 +98,10 @@ const GDPMonitor = () => {
                         theme={VictoryTheme.material}
                     >
                         <VictoryLine
+                            animate={{
+                                duration: 2000,
+                                onLoad: { duration: 1000 }
+                            }}
                             style={{
                                 data: { stroke: "#c43a31" },
                                 parent: { border: "1px solid #ccc" }

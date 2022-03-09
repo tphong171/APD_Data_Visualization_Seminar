@@ -43,11 +43,11 @@ const EmploymentMonitor = () => {
         
         const laborData = [
             {
-                xLabel: 'labor_force',
+                xLabel: 'employed',
                 yValue: data? data['employed_total'] : 0,
             },
             {
-                xLabel: 'not_in_labor',
+                xLabel: 'unemployed',
                 yValue: data? data['unemployed'] : 0,
             }
         ];
@@ -60,11 +60,11 @@ const EmploymentMonitor = () => {
         
         const laborData = [
             {
-                xLabel: 'labor_force',
+                xLabel: 'agrictulture',
                 yValue: data? data['agrictulture_ratio'] : 0,
             },
             {
-                xLabel: 'not_in_labor',
+                xLabel: 'nonagriculture',
                 yValue: data? data['nonagriculture_ratio'] : 0,
             }
         ];
@@ -131,7 +131,8 @@ const EmploymentMonitor = () => {
                             theme={VictoryTheme.material}
                         >
                             <VictoryBar
-                                style={{ data: { fill: "#c43a31" } }}
+                                style={{ data: { fill: ({ datum }) => datum.xLabel === 'labor_force' ? "green" : "#c43a31" } }}
+                                // labels={({ datum }) => `${datum.yValue}`}
                                 alignment="start"
                                 data={getDataLabor()}
                                 x='xLabel'
@@ -148,6 +149,7 @@ const EmploymentMonitor = () => {
                                 style={{
                                     axisLabel: { padding: 40 }
                                 }}
+                                
                             />
                         </VictoryChart>
                     </View>
@@ -167,7 +169,7 @@ const EmploymentMonitor = () => {
                             theme={VictoryTheme.material}
                         >
                             <VictoryBar
-                                style={{ data: { fill: "#c43a31" } }}
+                                style={{ data: { fill: ({ datum }) => datum.xLabel === 'employed' ? "green" : "#c43a31" } }}
                                 alignment="start"
                                 data={getDataEmployee()}
                                 x='xLabel'
@@ -203,7 +205,11 @@ const EmploymentMonitor = () => {
                             theme={VictoryTheme.material}
                         >
                             <VictoryBar
-                                style={{ data: { fill: "#c43a31" } }}
+                                animate={{
+                                    duration: 2000,
+                                    onLoad: { duration: 1000 }
+                                }}
+                                style={{ data: { fill: ({ datum }) => datum.xLabel === 'agrictulture' ? "green" : "#c43a31" } }}
                                 alignment="start"
                                 data={getDataAgrictulture()}
                                 x='xLabel'
