@@ -6,15 +6,14 @@ import { Icon } from 'react-native-elements';
 const DashBoardSimpleCard = ({dashBoardTitle, navigation}) => {
     return (
         <View style={{
-            width: 100,
-            height: 100,
+            aspectRatio: 1,
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
             borderWidth: 2,
             borderColor: '#ddd',
             borderRadius: 10,
-            marginVertical: 10,
+            backgroundColor: '#333333'
         }}>
             <View style={{
                 flexDirection: 'column',
@@ -29,14 +28,12 @@ const DashBoardSimpleCard = ({dashBoardTitle, navigation}) => {
                 />
             </View>
 
-            <View>
-                <Text style={{
-                    fontSize: 16,
-                    fontWeight: 'bold',
-                }}>
-                    {dashBoardTitle}
-                </Text>
-            </View>
+            <Text style={{
+                fontSize: 14,
+                fontWeight: 'bold',
+            }}>
+                {dashBoardTitle}
+            </Text>
         </View>
     );
 }
