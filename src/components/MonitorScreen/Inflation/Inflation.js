@@ -1,7 +1,14 @@
 import * as React from 'react';
 import { View, Text } from 'react-native';
-import { VictoryChart, VictoryScatter, VictoryTheme } from 'victory-native';
+import {
+    VictoryChart,
+    VictoryScatter,
+    VictoryTheme,
+    VictoryTooltip,
+    VictoryZoomContainer
+} from 'victory-native';
 import inflationData from '../../../data/inflation/data/inflation-consumer_json.json';
+import { hashToColorString } from '../../../utils/utils';
 
 /*
     Sample country
@@ -18,34 +25,54 @@ import inflationData from '../../../data/inflation/data/inflation-consumer_json.
     2D only
 */
 
-const sectionData = inflationData.map(country => { return { x: country.Year, y: country.Inflation } });
-const x_range = [
-    Math.floor(sectionData.reduce(Math.min, sectionData[0].x)),
-    Math.ceil(sectionData.reduce(Math.max, sectionData[0].x))
+const sectionData = inflationData.map(country => ({
+    Year: country.Year,
+    Inflation: country.Inflation,
+    label: country.Country
+}));
+const year_range = [
+    Math.floor(sectionData.reduce(Math.min, sectionData[0].Year)),
+    Math.ceil(sectionData.reduce(Math.max, sectionData[0].Year))
 ];
-const y_range = [
-    Math.floor(sectionData.reduce(Math.min, sectionData[0].y)),
-    Math.ceil(sectionData.reduce(Math.max, sectionData[0].y))
+const inflation_range = [
+    Math.floor(sectionData.reduce(Math.min, sectionData[0].Inflation)),
+    Math.ceil(sectionData.reduce(Math.max, sectionData[0].Inflation))
 ];
 
 const Inflation = () => {
+    // React.useEffect(() => {
+    //     console.log(JSON.stringify(sectionData, null, 4));
+    // }, [])
 
     return (
         <View>
             <VictoryChart
                 theme={VictoryTheme.material}
-                domain={{ x_range, y_range }}
+                domain={{ year_range, inflation_range }}
+                containerComponent={
+                    <VictoryZoomContainer zoomDomain={{
+                        x: [1950, 1970],
+                        y: [0, 30]
+                    }} />
+                }
             >
                 <VictoryScatter
+                    data={sectionData}
+                    x='Year'
+                    y='Inflation'
                     style={{
                         data: {
-                            fill: "#c43a31"
-                        }
+                            fill: ({ datum }) => hashToColorString(datum.label),
+                        },
                     }}
+                    labelComponent={<VictoryTooltip renderInPortal={false} />}
                     size={3}
-                    data={sectionData}
                 />
             </VictoryChart>
+
+            <Text style={{ color: '#333333', textAlign: 'center' }}>
+                Pinch zoom too see more data.{'\n'}Pan to move view around
+            </Text>
         </View>
     );
 }
