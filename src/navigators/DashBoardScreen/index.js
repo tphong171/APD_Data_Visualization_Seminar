@@ -7,6 +7,7 @@ import HelloWorld from '../../components/HelloWorld';
 import EmploymentMonitor from '../../components/MonitorScreen/Employment';
 import GDPMonitor from '../../components/MonitorScreen/GDP';
 import Inflation from '../../components/MonitorScreen/Inflation/Inflation';
+import Histogram from '../../components/MonitorScreen/Histogram/Histogram';
 
 const DashBoardNavigator = () => {
     const Stack = createNativeStackNavigator();
@@ -19,6 +20,7 @@ const DashBoardNavigator = () => {
                 <Stack.Screen name="EmploymentMonitor" component={EmploymentMonitor} />
                 <Stack.Screen name="GDPMonitor" component={GDPMonitor} />
                 <Stack.Screen name="Inflation" component={Inflation} />
+                <Stack.Screen name="Histogram" component={Histogram} />
             </Stack.Navigator>
         </NavigationContainer>
     );
