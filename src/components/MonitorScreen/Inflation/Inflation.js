@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { View, Text } from 'react-native';
-import { VictoryChart, VictoryScatter, VictoryTheme } from 'victory-native';
+import { View } from 'react-native';
+import { VictoryChart, VictoryScatter, VictoryTheme, VictoryTooltip } from 'victory-native';
 import inflationData from '../../../data/inflation/data/inflation-consumer_json.json';
 
 /*
@@ -18,14 +18,18 @@ import inflationData from '../../../data/inflation/data/inflation-consumer_json.
     2D only
 */
 
-const sectionData = inflationData.map(country => { return { x: country.Year, y: country.Inflation } });
-const x_range = [
-    Math.floor(sectionData.reduce(Math.min, sectionData[0].x)),
-    Math.ceil(sectionData.reduce(Math.max, sectionData[0].x))
+const sectionData = inflationData.map(country => ({
+    Year: country.Year,
+    Inflation: country.Inflation,
+    label: country.Country
+}));
+const year_range = [
+    Math.floor(sectionData.reduce(Math.min, sectionData[0].Year)),
+    Math.ceil(sectionData.reduce(Math.max, sectionData[0].Year))
 ];
-const y_range = [
-    Math.floor(sectionData.reduce(Math.min, sectionData[0].y)),
-    Math.ceil(sectionData.reduce(Math.max, sectionData[0].y))
+const inflation_range = [
+    Math.floor(sectionData.reduce(Math.min, sectionData[0].Inflation)),
+    Math.ceil(sectionData.reduce(Math.max, sectionData[0].Inflation))
 ];
 
 const Inflation = () => {
@@ -34,7 +38,7 @@ const Inflation = () => {
         <View>
             <VictoryChart
                 theme={VictoryTheme.material}
-                domain={{ x_range, y_range }}
+                domain={{ year_range, inflation_range }}
             >
                 <VictoryScatter
                     style={{
@@ -42,8 +46,12 @@ const Inflation = () => {
                             fill: "#c43a31"
                         }
                     }}
+                    labelComponent={<VictoryTooltip />}
+                    x='Year'
+                    y='Inflation'
                     size={3}
                     data={sectionData}
+                    // labels={({ datum }) => `country: ${datum.label}`}
                 />
             </VictoryChart>
         </View>
