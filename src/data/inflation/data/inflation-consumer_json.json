@@ -2,36 +2,6 @@
     {
         "Country": "Arab World",
         "Country Code": "ARB",
-        "Inflation": 1.30379017462108,
-        "Year": 1969
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 2.60224085694838,
-        "Year": 1970
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 6.88471890461128,
-        "Year": 1971
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 2.4960807617277,
-        "Year": 1972
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 11.5552808425358,
-        "Year": 1973
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
         "Inflation": 26.9226785018749,
         "Year": 1974
     },
@@ -70,48 +40,6 @@
         "Country Code": "ARB",
         "Inflation": 20.0283482593105,
         "Year": 1980
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 11.582296265148,
-        "Year": 1981
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 6.42062441834526,
-        "Year": 1982
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 6.88749696134816,
-        "Year": 1983
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 6.59117809192747,
-        "Year": 1984
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 4.4784201966029,
-        "Year": 1985
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 4.88397439560625,
-        "Year": 1986
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 9.36808989062381,
-        "Year": 1987
     },
     {
         "Country": "Arab World",
@@ -182,102 +110,6 @@
     {
         "Country": "Arab World",
         "Country Code": "ARB",
-        "Inflation": 5.81165476807901,
-        "Year": 1999
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 9.77706127534114,
-        "Year": 2000
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 0.780561216470318,
-        "Year": 2001
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 4.1706606232915,
-        "Year": 2002
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 5.11161321735516,
-        "Year": 2003
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 10.9910767238727,
-        "Year": 2004
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 11.9664316104799,
-        "Year": 2005
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 9.37678671296783,
-        "Year": 2006
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 6.66943396846374,
-        "Year": 2007
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 14.802531975188,
-        "Year": 2008
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": -4.36578079392847,
-        "Year": 2009
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 10.6374037585937,
-        "Year": 2010
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 14.6723830039607,
-        "Year": 2011
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 4.50064380196444,
-        "Year": 2012
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 1.3309501503249,
-        "Year": 2013
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
-        "Inflation": 0.377809577308867,
-        "Year": 2014
-    },
-    {
-        "Country": "Arab World",
-        "Country Code": "ARB",
         "Inflation": 2.11468545681666,
         "Year": 2015
     },
@@ -326,103 +158,841 @@
     {
         "Country": "Caribbean small states",
         "Country Code": "CSS",
-        "Inflation": 5.66379354862649,
-        "Year": 1982
+        "Inflation": 5.05682749772114,
+        "Year": 2005
     },
     {
         "Country": "Caribbean small states",
         "Country Code": "CSS",
-        "Inflation": 5.58257882120873,
-        "Year": 1983
+        "Inflation": 4.47832445265146,
+        "Year": 2006
     },
     {
         "Country": "Caribbean small states",
         "Country Code": "CSS",
-        "Inflation": 4.92746794515504,
-        "Year": 1984
+        "Inflation": 6.12721540981833,
+        "Year": 2007
     },
     {
         "Country": "Caribbean small states",
         "Country Code": "CSS",
-        "Inflation": 5.18868458656222,
-        "Year": 1985
+        "Inflation": 3.14426470007638,
+        "Year": 2008
     },
     {
         "Country": "Caribbean small states",
         "Country Code": "CSS",
-        "Inflation": 5.22175517642087,
+        "Inflation": 0.292507274911301,
+        "Year": 2009
+    },
+    {
+        "Country": "Caribbean small states",
+        "Country Code": "CSS",
+        "Inflation": 1.44023379548793,
+        "Year": 2010
+    },
+    {
+        "Country": "Caribbean small states",
+        "Country Code": "CSS",
+        "Inflation": 3.99211163162443,
+        "Year": 2011
+    },
+    {
+        "Country": "Caribbean small states",
+        "Country Code": "CSS",
+        "Inflation": 1.94635397408062,
+        "Year": 2012
+    },
+    {
+        "Country": "Euro area",
+        "Country Code": "EMU",
+        "Inflation": 1.36845897639715,
+        "Year": 2013
+    },
+    {
+        "Country": "Euro area",
+        "Country Code": "EMU",
+        "Inflation": 0.793274625491279,
+        "Year": 2014
+    },
+    {
+        "Country": "Euro area",
+        "Country Code": "EMU",
+        "Inflation": 1.09231638994078,
+        "Year": 2015
+    },
+    {
+        "Country": "Euro area",
+        "Country Code": "EMU",
+        "Inflation": 0.790898505369199,
+        "Year": 2016
+    },
+    {
+        "Country": "Europe & Central Asia",
+        "Country Code": "ECS",
+        "Inflation": 4.15066893913145,
         "Year": 1986
     },
     {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 7.63524427233648,
+        "Country": "Europe & Central Asia",
+        "Country Code": "ECS",
+        "Inflation": 4.27565939175491,
         "Year": 1987
     },
     {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 5.78822261663389,
+        "Country": "Europe & Central Asia",
+        "Country Code": "ECS",
+        "Inflation": 3.19369265751932,
         "Year": 1988
     },
     {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 5.60363368238163,
+        "Country": "Europe & Central Asia",
+        "Country Code": "ECS",
+        "Inflation": 5.55400763158818,
         "Year": 1989
     },
     {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 7.49353207245244,
+        "Country": "Europe & Central Asia",
+        "Country Code": "ECS",
+        "Inflation": 5.41778468842696,
         "Year": 1990
     },
     {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 4.8271019323537,
+        "Country": "Europe & Central Asia",
+        "Country Code": "ECS",
+        "Inflation": 8.30606554350775,
         "Year": 1991
     },
     {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 4.01264167577136,
+        "Country": "Europe & Central Asia",
+        "Country Code": "ECS",
+        "Inflation": 6.71077120948731,
         "Year": 1992
     },
     {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 1.88342481748877,
-        "Year": 1993
-    },
-    {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 3.58831690077712,
-        "Year": 1994
-    },
-    {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 3.05939966794418,
-        "Year": 1995
-    },
-    {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 2.67308451080788,
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 43.5866110462681,
         "Year": 1996
     },
     {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 1.82737735261323,
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 17.9048952273183,
         "Year": 1997
     },
     {
-        "Country": "Caribbean small states",
-        "Country Code": "CSS",
-        "Inflation": 2.42515823354313,
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 11.3552583429482,
         "Year": 1998
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 24.7593390761635,
+        "Year": 1999
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 23.2871674204576,
+        "Year": 2000
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 10.7786831287143,
+        "Year": 2001
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 5.46253301136817,
+        "Year": 2002
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 8.27059536093014,
+        "Year": 2003
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 8.34134766088171,
+        "Year": 2004
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 7.52794282372466,
+        "Year": 2005
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 9.97075776768533,
+        "Year": 2006
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 11.8918876762055,
+        "Year": 2007
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 11.9520083685289,
+        "Year": 2008
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 3.40782291892353,
+        "Year": 2009
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 7.39068660120824,
+        "Year": 2010
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 8.82114533534443,
+        "Year": 2011
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 5.06568711089241,
+        "Year": 2012
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 3.39195530923172,
+        "Year": 2013
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 2.98522300130372,
+        "Year": 2014
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 2.21271550956974,
+        "Year": 2015
+    },
+    {
+        "Country": "Europe & Central Asia (excluding high income)",
+        "Country Code": "ECA",
+        "Inflation": 3.8997525427533,
+        "Year": 2016
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 95.6187119888811,
+        "Year": 1991
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 307.298056894299,
+        "Year": 1994
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 152.445882886762,
+        "Year": 1995
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 43.0326327546194,
+        "Year": 1996
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 17.7359944987061,
+        "Year": 1997
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 11.0272700214004,
+        "Year": 1998
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 23.0114377854422,
+        "Year": 1999
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 23.1159426378673,
+        "Year": 2000
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 10.1564326382591,
+        "Year": 2001
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 5.12184192780187,
+        "Year": 2002
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 8.22060285379843,
+        "Year": 2003
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 8.31517629127289,
+        "Year": 2004
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 7.12862229848324,
+        "Year": 2005
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 9.39161784851099,
+        "Year": 2006
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 11.066099818188,
+        "Year": 2007
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 11.8666803241074,
+        "Year": 2008
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 3.77123378902394,
+        "Year": 2009
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 7.01265772061231,
+        "Year": 2010
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 8.18856849438845,
+        "Year": 2011
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 4.78556980591489,
+        "Year": 2012
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 3.36682464044367,
+        "Year": 2013
+    },
+    {
+        "Country": "Europe & Central Asia (IDA & IBRD countries)",
+        "Country Code": "TEC",
+        "Inflation": 2.70811000360125,
+        "Year": 2014
+    },
+    {
+        "Country": "Fragile and conflict affected situations",
+        "Country Code": "FCS",
+        "Inflation": 8.44109442824087,
+        "Year": 1988
+    },
+    {
+        "Country": "Fragile and conflict affected situations",
+        "Country Code": "FCS",
+        "Inflation": 8.40158927456498,
+        "Year": 1989
+    },
+    {
+        "Country": "Fragile and conflict affected situations",
+        "Country Code": "FCS",
+        "Inflation": 7.60211265142121,
+        "Year": 1990
+    },
+    {
+        "Country": "Fragile and conflict affected situations",
+        "Country Code": "FCS",
+        "Inflation": 7.12091459826288,
+        "Year": 1991
+    },
+    {
+        "Country": "Fragile and conflict affected situations",
+        "Country Code": "FCS",
+        "Inflation": 8.64209361886978,
+        "Year": 2000
+    },
+    {
+        "Country": "Fragile and conflict affected situations",
+        "Country Code": "FCS",
+        "Inflation": 5.91366256168033,
+        "Year": 2001
+    },
+    {
+        "Country": "Fragile and conflict affected situations",
+        "Country Code": "FCS",
+        "Inflation": 4.94713368420376,
+        "Year": 2002
+    },
+    {
+        "Country": "Fragile and conflict affected situations",
+        "Country Code": "FCS",
+        "Inflation": 4.85856418199388,
+        "Year": 2003
+    },
+    {
+        "Country": "Fragile and conflict affected situations",
+        "Country Code": "FCS",
+        "Inflation": 6.76621922872982,
+        "Year": 2004
+    },
+    {
+        "Country": "Fragile and conflict affected situations",
+        "Country Code": "FCS",
+        "Inflation": 7.56270788782217,
+        "Year": 2005
+    },
+    {
+        "Country": "Korea, Rep.",
+        "Country Code": "KOR",
+        "Inflation": 0.600438072898839,
+        "Year": 2014
+    },
+    {
+        "Country": "Korea, Rep.",
+        "Country Code": "KOR",
+        "Inflation": 2.39465886357708,
+        "Year": 2015
+    },
+    {
+        "Country": "Korea, Rep.",
+        "Country Code": "KOR",
+        "Inflation": 1.80730348847811,
+        "Year": 2016
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 11.4009336191695,
+        "Year": 2001
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 1.80520462358528,
+        "Year": 2002
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": -2.17058205337833,
+        "Year": 2003
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": -3.83652673447502,
+        "Year": 2004
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": -3.20945521210774,
+        "Year": 2005
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 3.52883770802504,
+        "Year": 2006
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 1.25736739911191,
+        "Year": 2007
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 7.11898963583847,
+        "Year": 2008
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 1.42052534516273,
+        "Year": 2009
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 4.69315172333715,
+        "Year": 2010
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 3.87767962798908,
+        "Year": 2011
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 2.45346259773937,
+        "Year": 2012
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 2.20367496720904,
+        "Year": 2013
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 3.26233599900618,
+        "Year": 2014
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": 0.223398703202648,
+        "Year": 2015
+    },
+    {
+        "Country": "Kosovo",
+        "Country Code": "XKX",
+        "Inflation": -0.330424832202311,
+        "Year": 2016
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 1.51637978743975,
+        "Year": 1966
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": -0.266469414700055,
+        "Year": 1967
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": -0.270514905219045,
+        "Year": 1968
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 1.22681669415987,
+        "Year": 1969
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 0.571551406641518,
+        "Year": 1970
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 25.0461842495313,
+        "Year": 1971
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 1.48239869492286,
+        "Year": 1972
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 15.1071923930704,
+        "Year": 1973
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 162.808769761067,
+        "Year": 1974
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": -0.597397370643037,
+        "Year": 1975
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 0.931851561984871,
+        "Year": 1976
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 5.62002951882796,
+        "Year": 1977
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": -1.95769332567876,
+        "Year": 1978
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 40.8049961434282,
+        "Year": 1979
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 4.92456311183611,
+        "Year": 2003
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 10.8499541456777,
+        "Year": 2004
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 22.3576117387534,
+        "Year": 2005
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 16.1734015744753,
+        "Year": 2006
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 4.30678869791433,
+        "Year": 2007
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 18.6619842879845,
+        "Year": 2008
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": -17.2163488419022,
+        "Year": 2009
+    },
+    {
+        "Country": "Kuwait",
+        "Country Code": "KWT",
+        "Inflation": 11.1657139576088,
+        "Year": 2010
+    },
+    {
+        "Country": "Kyrgyz Republic",
+        "Country Code": "KGZ",
+        "Inflation": -1.8773064711405,
+        "Year": 1988
+    },
+    {
+        "Country": "Kyrgyz Republic",
+        "Country Code": "KGZ",
+        "Inflation": 6.98603069412729,
+        "Year": 1989
+    },
+    {
+        "Country": "Kyrgyz Republic",
+        "Country Code": "KGZ",
+        "Inflation": 7.93533406725044,
+        "Year": 1990
+    },
+    {
+        "Country": "Kyrgyz Republic",
+        "Country Code": "KGZ",
+        "Inflation": 134.749524217347,
+        "Year": 1991
+    },
+    {
+        "Country": "Kyrgyz Republic",
+        "Country Code": "KGZ",
+        "Inflation": 8.41522543819863,
+        "Year": 2014
+    },
+    {
+        "Country": "Kyrgyz Republic",
+        "Country Code": "KGZ",
+        "Inflation": 3.42728741773522,
+        "Year": 2015
+    },
+    {
+        "Country": "Kyrgyz Republic",
+        "Country Code": "KGZ",
+        "Inflation": 2.47569151711188,
+        "Year": 2016
+    },
+    {
+        "Country": "Lao PDR",
+        "Country Code": "LAO",
+        "Inflation": 64.8146877841871,
+        "Year": 1985
+    },
+    {
+        "Country": "Lao PDR",
+        "Country Code": "LAO",
+        "Inflation": 51.115458740141,
+        "Year": 1986
+    },
+    {
+        "Country": "Lao PDR",
+        "Country Code": "LAO",
+        "Inflation": 14.4277167032567,
+        "Year": 1987
+    },
+    {
+        "Country": "Lao PDR",
+        "Country Code": "LAO",
+        "Inflation": 25.8491486619648,
+        "Year": 1988
+    },
+    {
+        "Country": "Lao PDR",
+        "Country Code": "LAO",
+        "Inflation": 6.31846474292817,
+        "Year": 2002
+    },
+    {
+        "Country": "Lao PDR",
+        "Country Code": "LAO",
+        "Inflation": 13.4500898416467,
+        "Year": 2003
+    },
+    {
+        "Country": "Lao PDR",
+        "Country Code": "LAO",
+        "Inflation": 10.6904285434965,
+        "Year": 2004
+    },
+    {
+        "Country": "Lao PDR",
+        "Country Code": "LAO",
+        "Inflation": 8.64032247874864,
+        "Year": 2005
+    },
+    {
+        "Country": "Lao PDR",
+        "Country Code": "LAO",
+        "Inflation": 10.8051012263569,
+        "Year": 2006
+    },
+    {
+        "Country": "Lao PDR",
+        "Country Code": "LAO",
+        "Inflation": 7.43828600553336,
+        "Year": 2007
+    },
+    {
+        "Country": "Zimbabwe",
+        "Country Code": "ZWE",
+        "Inflation": -2.01767884675519,
+        "Year": 2006
+    },
+    {
+        "Country": "Zimbabwe",
+        "Country Code": "ZWE",
+        "Inflation": 0.894887041165248,
+        "Year": 2007
+    },
+    {
+        "Country": "Zimbabwe",
+        "Country Code": "ZWE",
+        "Inflation": 1.34922285879793,
+        "Year": 2008
+    },
+    {
+        "Country": "Zimbabwe",
+        "Country Code": "ZWE",
+        "Inflation": 4.48786413179761,
+        "Year": 2010
+    },
+    {
+        "Country": "Zimbabwe",
+        "Country Code": "ZWE",
+        "Inflation": 3.33186732087951,
+        "Year": 2011
+    },
+    {
+        "Country": "Zimbabwe",
+        "Country Code": "ZWE",
+        "Inflation": 2.56318082267227,
+        "Year": 2012
+    },
+    {
+        "Country": "Zimbabwe",
+        "Country Code": "ZWE",
+        "Inflation": 2.80570257920046,
+        "Year": 2013
+    },
+    {
+        "Country": "Zimbabwe",
+        "Country Code": "ZWE",
+        "Inflation": 0.700920984035605,
+        "Year": 2014
+    },
+    {
+        "Country": "Zimbabwe",
+        "Country Code": "ZWE",
+        "Inflation": 0.898071929552273,
+        "Year": 2015
+    },
+    {
+        "Country": "Zimbabwe",
+        "Country Code": "ZWE",
+        "Inflation": 1.30997731788949,
+        "Year": 2016
     }
 ]

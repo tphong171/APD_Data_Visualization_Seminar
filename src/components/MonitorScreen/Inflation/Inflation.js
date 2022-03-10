@@ -2,6 +2,7 @@ import * as React from 'react';
 import { View } from 'react-native';
 import { VictoryChart, VictoryScatter, VictoryTheme, VictoryTooltip } from 'victory-native';
 import inflationData from '../../../data/inflation/data/inflation-consumer_json.json';
+import { hashToColorString } from '../../../utils/utils';
 
 /*
     Sample country
@@ -33,6 +34,9 @@ const inflation_range = [
 ];
 
 const Inflation = () => {
+    // React.useEffect(() => {
+    //     console.log(JSON.stringify(sectionData, null, 4));
+    // }, [])
 
     return (
         <View>
@@ -41,17 +45,16 @@ const Inflation = () => {
                 domain={{ year_range, inflation_range }}
             >
                 <VictoryScatter
-                    style={{
-                        data: {
-                            fill: "#c43a31"
-                        }
-                    }}
-                    labelComponent={<VictoryTooltip />}
+                    data={sectionData}
                     x='Year'
                     y='Inflation'
+                    style={{
+                        data: {
+                            fill: ({ datum }) => hashToColorString(datum.label),
+                        },
+                    }}
+                    labelComponent={<VictoryTooltip renderInPortal={false} />}
                     size={3}
-                    data={sectionData}
-                    // labels={({ datum }) => `country: ${datum.label}`}
                 />
             </VictoryChart>
         </View>
