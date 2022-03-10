@@ -1,6 +1,12 @@
 import * as React from 'react';
-import { View } from 'react-native';
-import { VictoryChart, VictoryScatter, VictoryTheme, VictoryTooltip } from 'victory-native';
+import { View, Text } from 'react-native';
+import {
+    VictoryChart,
+    VictoryScatter,
+    VictoryTheme,
+    VictoryTooltip,
+    VictoryZoomContainer
+} from 'victory-native';
 import inflationData from '../../../data/inflation/data/inflation-consumer_json.json';
 import { hashToColorString } from '../../../utils/utils';
 
@@ -43,6 +49,12 @@ const Inflation = () => {
             <VictoryChart
                 theme={VictoryTheme.material}
                 domain={{ year_range, inflation_range }}
+                containerComponent={
+                    <VictoryZoomContainer zoomDomain={{
+                        x: [1950, 1970],
+                        y: [0, 30]
+                    }} />
+                }
             >
                 <VictoryScatter
                     data={sectionData}
@@ -57,6 +69,10 @@ const Inflation = () => {
                     size={3}
                 />
             </VictoryChart>
+
+            <Text style={{ color: '#333333', textAlign: 'center' }}>
+                Pinch zoom too see more data.{'\n'}Pan to move view around
+            </Text>
         </View>
     );
 }
