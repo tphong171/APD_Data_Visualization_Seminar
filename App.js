@@ -8,12 +8,6 @@
 
 import React from "react";
 
-import {
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
-
 import HelloWorld from './src/components/HelloWorld';
 import DashBoardScreen from "./src/components/DashBoardScreen";
 import DashBoardNavigator from './src/navigators/DashBoardScreen/index';

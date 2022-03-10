@@ -51,8 +51,8 @@ const Inflation = () => {
                 domain={{ year_range, inflation_range }}
                 containerComponent={
                     <VictoryZoomContainer zoomDomain={{
-                        x: [1950, 1970],
-                        y: [0, 30]
+                        x: [1970, 1990],
+                        y: [-10, 20]
                     }} />
                 }
             >
