@@ -241,15 +241,7 @@ const dataRawAfter = [
 function dataConverter(arr) {
     return arr.map(data => ({ x: data }));
 }
-[
-    { x: data1 },
-    { x: data2 },
-    { x: data3 },
-    { x: data2 },
-    { x: data3 },
-    { x: data1 },
-    { x: data1 }
-]
+
 const dataBefore = dataConverter(dataRawBefore);
 const dataAfter = dataConverter(dataRawAfter);
 
