@@ -29,30 +29,6 @@ const DashBoardScreen = ({ navigation }) => {
                 </TouchableOpacity>
 
                 <TouchableOpacity style={{ width: '48%' }} onPress={() => {
-                    navigation.navigate('Monitor');
-                }}>
-                    <DashBoardSimpleCard dashBoardTitle='Promotion' navigation={navigation} />
-                </TouchableOpacity>
-
-                <TouchableOpacity style={{ width: '48%' }} onPress={() => {
-                    navigation.navigate('Monitor');
-                }}>
-                    <DashBoardSimpleCard dashBoardTitle='Profit' navigation={navigation} />
-                </TouchableOpacity>
-
-                <TouchableOpacity style={{ width: '48%' }} onPress={() => {
-                    navigation.navigate('Monitor');
-                }}>
-                    <DashBoardSimpleCard dashBoardTitle='Customers' navigation={navigation} />
-                </TouchableOpacity>
-
-                <TouchableOpacity style={{ width: '48%' }} onPress={() => {
-                    navigation.navigate('Monitor');
-                }}>
-                    <DashBoardSimpleCard dashBoardTitle='Companies' navigation={navigation} />
-                </TouchableOpacity>
-
-                <TouchableOpacity style={{ width: '48%' }} onPress={() => {
                     navigation.navigate('Inflation');
                 }}>
                     <DashBoardSimpleCard dashBoardTitle='Inflation' navigation={navigation} />
